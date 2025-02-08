@@ -1,3 +1,5 @@
+![Title](gfx/euro.png)
+
 # Détecteur de faux billets
 
 ## Description
@@ -8,13 +10,15 @@ Lorsqu'un billet arrive, nous avons une machine qui consigne l'ensemble de ses c
 
 Ainsi, il faudrait construire un algorithme qui, à partir des caractéristiques géométriques d'un billet, serait capable de définir si ce dernier est un vrai ou un faux billet.
 
+![Billet](gfx/billet.png)
+
 ## Structure du projet
 - `data/` :         Contient les jeux de données utilisés pour le projet.
 - `notebooks/` :    Contient les notebooks Jupyter utilisés pour l'analyse des données.
 - `gfx/` :          Contient les graphiques utilisés.
 - `reports/` :      Contient les rapports générés à partir des analyses.
 
-## Première partie : Analyse exploratoire
+## Première partie : Analyse
 - Vérification des données
 - Analyse descriptive
 - Régression linéaire pour compléter les valeurs manquantes
